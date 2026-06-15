@@ -528,6 +528,41 @@ font-weight:700;
   </footer>
 
   <script>
+    function updateClock(){
+
+const now = new Date();
+
+document.getElementById("liveDate").innerHTML =
+now.toLocaleDateString('en-IN');
+
+document.getElementById("liveTime").innerHTML =
+now.toLocaleTimeString();
+
+}
+
+setInterval(updateClock,1000);
+updateClock();
+
+const matricExam = new Date("2027-02-17");
+const interExam = new Date("2027-02-01");
+
+function updateCountdown(){
+
+const today = new Date();
+
+const matric =
+Math.ceil((matricExam - today)/(1000*60*60*24));
+
+const inter =
+Math.ceil((interExam - today)/(1000*60*60*24));
+
+document.getElementById("matricDays").innerHTML = matric;
+document.getElementById("interDays").innerHTML = inter;
+
+}
+
+setInterval(updateCountdown,1000);
+updateCountdown();
     // ── PWA INSTALL ──
     let deferredPrompt = null;
 
