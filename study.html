@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Study Zone - PM SHRI Pratappur</title>
+
+<style>
+body{
+margin:0;
+padding:0;
+font-family:Arial,sans-serif;
+background:#f4f6fb;
+}
+
+.header{
+background:#173f7a;
+color:white;
+text-align:center;
+padding:25px 15px;
+}
+
+.header h1{
+margin:0;
+font-size:24px;
+}
+
+.header p{
+margin-top:8px;
+opacity:.9;
+}
+
+.study-grid{
+padding:20px;
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+}
+
+.class-card{
+background:white;
+border-radius:15px;
+padding:20px;
+text-align:center;
+font-weight:bold;
+font-size:18px;
+box-shadow:0 3px 10px rgba(0,0,0,.08);
+text-decoration:none;
+color:#173f7a;
+}
+
+.class-card:hover{
+transform:translateY(-3px);
+}
+
+.bottom-nav{
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+background:white;
+display:flex;
+justify-content:space-around;
+padding:12px;
+box-shadow:0 -2px 10px rgba(0,0,0,.1);
+}
+
+.bottom-nav a{
+text-decoration:none;
+font-weight:bold;
+color:#173f7a;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<h1>📚 Study Zone</h1>
+<p>PM SHRI +2 High School Pratappur</p>
+</div>
+
+<div class="study-grid">
+
+<a href="#" class="class-card">Class 6</a>
+<a href="#" class="class-card">Class 7</a>
+
+<a href="#" class="class-card">Class 8</a>
+<a href="#" class="class-card">Class 9</a>
+
+<a href="#" class="class-card">Class 10</a>
+<a href="#" class="class-card">Class 11 Arts</a>
+
+<a href="#" class="class-card">Class 11 Science</a>
+<a href="#" class="class-card">Class 12 Arts</a>
+
+<a href="#" class="class-card">Class 12 Science</a>
+
+</div>
+
+<div class="bottom-nav">
+<a href="index.html">🏠 Home</a>
+<a href="study.html">📚 Study</a>
+<a href="#">🎮 Play</a>
+</div>
+
+</body>
+</html>
