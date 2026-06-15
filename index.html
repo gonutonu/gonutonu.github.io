@@ -245,6 +245,54 @@
         }
 
         /* Mobile Responsive Adjustments */
+       .quick-actions{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+max-width:900px;
+margin:-50px auto 30px auto;
+padding:0 20px;
+position:relative;
+z-index:100;
+}
+
+.action-card{
+background:white;
+padding:25px;
+border-radius:20px;
+text-align:center;
+font-size:1.2rem;
+font-weight:bold;
+box-shadow:0 10px 25px rgba(0,0,0,.12);
+transition:.3s;
+}
+
+.action-card h4{
+margin-top:10px;
+color:#003366;
+}
+
+.action-card:hover{
+transform:translateY(-8px);
+}
+
+.hero-buttons{
+margin-top:25px;
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.btn{
+background:#ff9933;
+color:white;
+padding:12px 22px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
         @media (max-width: 768px) {
             h1 { font-size: 1.6rem; }
             .hero h2 { font-size: 2rem; }
