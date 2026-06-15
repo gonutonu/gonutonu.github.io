@@ -1,20 +1,16 @@
 {
-  "name": "PM SHRI Pratappur",
-  "short_name": "PM SHRI",
+  "name": "PM SHRI +2 High School Pratappur",
+  "short_name": "PMSHRI Pratappur",
+  "description": "PM SHRI +2 High School Pratappur, Halsi, Lakhisarai",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#003366",
+  "background_color": "#f0f4f9",
+  "theme_color": "#1a3a6b",
+  "orientation": "portrait",
+  "lang": "hi",
+  "scope": "/",
   "icons": [
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable any" }
   ]
 }
